@@ -1,0 +1,11 @@
+{
+  "name": "the-don-jewelers-clean-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "node preview-server.js",
+    "start": "node preview-server.js",
+    "check": "node --check src/main.js && node --check preview-server.js"
+  }
+}
