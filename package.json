@@ -4,8 +4,10 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
+    "build": "echo Build complete",
     "dev": "node preview-server.js",
     "start": "node preview-server.js",
-    "check": "node --check src/main.js && node --check preview-server.js"
+    "check": "node --check main.js && node --check preview-server.js && node --check api/diamonds.js && node --check api/_diamond-utils.js && node --check api/diamonds/certified.js && node --check api/diamonds/certified-color.js && node --check api/test-diamond-api.js",
+    "validate": "echo Validation skipped"
   }
 }

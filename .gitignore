@@ -1,3 +1,8 @@
 .env
 .diamond-cache.json
 node_modules/
+server-runtime.log
+*.zip
+_*/
+_project_export*/
+_zip_under_25mb/
